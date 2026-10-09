@@ -1,0 +1,5 @@
+# Personal maintainer responsible for the exercise application
+/src/app.py @widechaos
+/src/backend/database.py @widechaos
+/src/backend/routers/auth.py @widechaos
+/src/static/ @widechaos
