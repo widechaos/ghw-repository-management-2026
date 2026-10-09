@@ -21,3 +21,6 @@ instance/
 .DS_Store
 Thumbs.db
 CLAUDE.md
+
+# Disposable exercise scratch files
+*.local
