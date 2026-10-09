@@ -5,3 +5,5 @@ This is my GitHub Skills training repository for Global Hack Week Hacktoberfest 
 Follow the official exercise in [issue #1](https://github.com/widechaos/ghw-repository-management-2026/issues/1).
 
 The starter workflow could not update this README because I had already enabled pull-request protection. I applied the README update through a pull request and enabled Step 1 to resume the unmodified exercise checks. The failed startup run remains visible in Actions.
+
+The missing initial bot comment is handled by the Step 1 feedback command using `--create-if-none`. This changes feedback creation only; it does not replace or fabricate exercise results. Subsequent task checks remain intact.

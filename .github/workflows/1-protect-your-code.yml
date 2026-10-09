@@ -58,7 +58,7 @@ jobs:
         run: |
           gh issue comment "$ISSUE_URL" \
             --body "$ISSUE_BODY" \
-            --edit-last
+            --edit-last --create-if-none
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ISSUE_BODY: ${{ steps.build-message-step-finish.outputs.updated-text }}
